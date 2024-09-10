@@ -94,6 +94,8 @@ management commands with the Django ``manage.py`` or ``django-admin`` command he
 - ``python manage.py axes_reset_logs (age)``
   will reset (i.e. delete) AccessLog records that are older
   than the given age where the default is 30 days.
+- ``python manage.py axes_list_attempts``
+  will list attempts: ip, username, count
 
 
 Resetting attempts programmatically by APIs
